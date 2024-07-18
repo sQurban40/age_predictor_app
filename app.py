@@ -32,7 +32,6 @@ def plot_data(df, title):
     plt.title(title)
     st.pyplot(plt)
 
-# Streamlit App
 st.title('Altersschätzung basierend auf Methylierungswerten')
 
 uploaded_file1 = st.file_uploader("Bitte wählen Sie die Datei für Protein 1 (ELOVL2) aus.", type=["xlsx"])
